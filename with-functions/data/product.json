@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Nike Quest 5",
+    "description": "Zapatillas running para hombre",
+    "price": "76.99",
+    "thumbnail": "https://nike-clone-javier-olivares.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlh98tbyp%2Fimage%2Fupload%2Fv1685887884%2Fthumbnail_eff486a70c.webp&w=640&q=75",
+    "code": "NQ5",
+    "stock": 15
+  },
+  {
+    "id": 2,
+    "title": "Jordan Stay Loyal 2",
+    "description": "Zapatillas Jordan para hombre",
+    "price": "116.99",
+    "thumbnail": "https://nike-clone-javier-olivares.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlh98tbyp%2Fimage%2Fupload%2Fv1685833073%2Fthumbnail_63c509e967.webp&w=640&q=75",
+    "code": "JSL2",
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "title": "Nike Quest 6",
+    "description": "Zapatillas running para hombre",
+    "price": "96.99",
+    "thumbnail": "https://nike-clone-javier-olivares.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlh98tbyp%2Fimage%2Fupload%2Fv1685887884%2Fthumbnail_eff486a70c.webp&w=640&q=75",
+    "code": "NQ6",
+    "stock": 18
+  }
+]
