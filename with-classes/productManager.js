@@ -125,17 +125,18 @@ class ProductManager {
 const productManager = new ProductManager("./data/product.json");
 
 (async () => {
-  await productManager.addProduct("Nike Pegasus 40 SE", "Men's running shoes", "129.99", "https://example.com/image.jpg");
-  await productManager.addProduct("Nike Quest 5", "Men's running shoes", "76.99", "https://example.com/image.jpg", "NQ5", 15);
-  await productManager.addProduct("Nike Quest 5", "Men's running shoes", "76.99", "https://example.com/image.jpg", "NQ5", 15);
-  await productManager.addProduct("Jordan Stay Loyal 2", "Men's Jordan shoes", "116.99", "https://example.com/image.jpg", "JSL2", 10);
+  // await productManager.addProduct("Nike Pegasus 40 SE", "Men's running shoes", "129.99", "https://example.com/image.jpg");
+  // await productManager.addProduct("Nike Quest 5", "Men's running shoes", "76.99", "https://example.com/image.jpg", "NQ5", 15);
+  // await productManager.addProduct("Nike Quest 5", "Men's running shoes", "76.99", "https://example.com/image.jpg", "NQ5", 15);
+  // await productManager.addProduct("Jordan Stay Loyal 2", "Men's Jordan shoes", "116.99", "https://example.com/image.jpg", "JSL2", 10);
   await productManager.addProduct("Nike Quest 6", "Men's running shoes", "96.99", "https://example.com/image.jpg", "NQ6", 18);
+  // await productManager.addProduct("Nike Quest 11", "Men's running shoes", "96.99", "https://example.com/image.jpg", "NQ11", 25);
 
-  await productManager.getProducts();
+  // await productManager.getProducts();
 
-  await productManager.getProductById(1);
+  // await productManager.getProductById(5);
 
-  await productManager.updateProduct(3, { title: "Nike Quest 10" });
+  // await productManager.updateProduct(5, { title: "Nike Quest 10" });
 
-  await productManager.deleteProduct(3);
+  // await productManager.deleteProduct(5);
 })();
